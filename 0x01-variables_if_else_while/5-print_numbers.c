@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  *
@@ -8,11 +7,10 @@
  */
 int main(void)
 {
-	int pi;
+	int pd = 0;
 
-	for (pi = 0; pi < 10; pi++)
-		printf("%d", pi);
-		printf("\n");
-
+	for (; pd != 10; pd++)
+		printf("%d", pd);
+	printf("\n");
 	return (0);
 }
