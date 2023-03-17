@@ -7,15 +7,13 @@
  */
 int main(void)
 {
-  char let = 'a';
+	char Pc = 'a';
 
-  while (let <= 'z')
-  {
-    putchar(let);
-    let++;
-  }
-
-  putchar('\n');
-
-  return (0);
+	while (Pc <= 'z')
+	{
+		putchar(Pc);
+		Pc++;
+	}
+	putchar('\n');
+	return (0);
 }
