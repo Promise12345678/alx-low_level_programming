@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-times_table();
+times_tablet();
 return (0);
 }
