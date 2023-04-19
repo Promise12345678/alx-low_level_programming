@@ -1,5 +1,6 @@
-#include "function_pointers.h"
-#include <stdio.h>
+#ifndef _FUNCTION_FILE_H_
+#define _FUNCTION_FILE_H_
+#include <stdlib.h>
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
